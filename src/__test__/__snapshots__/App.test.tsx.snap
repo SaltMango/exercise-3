@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`counter increment and decrement works correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="county-style"
+  >
+    <input
+      className="input-style"
+      onChange={[Function]}
+      placeholder="Enter Country Code"
+      type="text"
+      value=""
+    />
+    <div
+      className="details"
+    />
+  </div>
+  <div
+    className="continent-style"
+  >
+    <input
+      className="input-style"
+      onChange={[Function]}
+      placeholder="Enter continent Code"
+      type="text"
+      value=""
+    />
+    <div
+      className="details"
+    >
+       
+      <h4>
+        Countries
+      </h4>
+    </div>
+  </div>
+</div>
+`;

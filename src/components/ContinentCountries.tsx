@@ -51,6 +51,7 @@ const ContinentCountries: React.FC<{ code: string }> = ({ code }) => {
             return (
               <div key={index++}>
                 <span>{item.emoji}</span> <span>{item.name}</span>
+                <hr className="divider"></hr>
               </div>
             );
           }

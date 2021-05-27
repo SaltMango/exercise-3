@@ -52,7 +52,7 @@ const CountryDetails: React.FC<{ code: string }> = ({ code }) => {
   }
 
   return (
-    <div>
+    <div data-testid="countryDetails">
       <p>Name: {data && data.country.name}</p>
       <p>Code: {data && data.country.code}</p>
       <p>Currency: {data && data.country.currency}</p>
